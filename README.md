@@ -56,7 +56,7 @@ module.exports = {
 
 * Never deply the dev.js file to github
 * For apiKey, head over to [rapidapi](https://rapidapi.com/coderholic/api/ipinfo-io) and create an account. Use the API key that is provided to your account
-* Replace the YOUR_API_KEY_HERE with your own personal Google Maps API key. Make sure the API key is a string (Place the API key in between quotes)
+* Replace the apiGoogleMaps with your own personal Google Maps API key. Make sure the API key is a string (Place the API key in between quotes)
 * For cryptrKey, put any set of random letters
 
 Step 3: Navigate to the UserGoogleMaps.js file and replace the Google Maps API key with your own.
