@@ -24,6 +24,7 @@ yarn start
 
 Ta-da! Hopefully everything is working. 
 
+
 ## Deployment
 
 A production ready deployment can be made with a few extra configurations.
@@ -50,7 +51,7 @@ module.exports = {
 
 NOTE: Replace the YOUR_API_KEY_HERE with your own personal Google Maps API key. Make sure the API key is a string (Place the API key in between quotes).
 
-Step 3: Repeat steps 1 & 2.
+Step 3: Navigate to the client folder and repeat steps 1 & 2.
 
 ```
 client ---
@@ -63,12 +64,13 @@ client ---
                     keys.js
                     prod.js
 
-Inside the dev.js file:
+In the dev.js file paste the following:
 
 module.exports = {
   apiGoogleMaps: "YOUR_API_KEY_HERE"
 };
 ```
+
 
 ## Authors
 
