@@ -56,10 +56,10 @@ module.exports = {
 
 * Never deply the dev.js file to github
 * For apiKey, head over to [rapidapi](https://rapidapi.com/coderholic/api/ipinfo-io) and create an account. Use the API key that is provided to your account
-* Replace the apiGoogleMaps with your own personal Google Maps API key. Make sure the API key is a string (Place the API key in between quotes)
+* Replace the apiGoogleMaps with your own public Google Maps API key
 * For cryptrKey, put any set of random letters
 
-Step 3: Navigate to the UserGoogleMaps.js file and replace the Google Maps API key with your own.
+Step 3: Navigate to the UserGoogleMaps.js file and replace the Google Maps API key with your own. Make sure to only put your public google maps API key, not your private key.
 
 ```
 client ---
@@ -75,7 +75,9 @@ client ---
                                         UserGoogleMaps.js
 ```
 
-NOTE: Make sure to set your config vars if you are deploying to heroku or any other development server.
+Step 4: If you are deploying to heroku or any other development server, make sure to set your config vars to the ones in the dev.js file
+
+Step 5: Push all changes to your development server.
 
 ## Authors
 
