@@ -1,0 +1,30 @@
+/* DO NOT CHANGE THE DEFAULT CSS CLASS */
+.default {
+  cursor: pointer;
+}
+/* DO NOT CHANGE THE DEFAULT CSS CLASS */
+
+/* You may change the css after this line */
+.button-1 {
+  /* background-color: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  padding: 9px 20px 9px 20px; */
+  /* background-color: #FF983C; */
+  background-color: #ff6000;
+  /* box-shadow: 3px 5px 9px 0px #CD6509; */
+  border: 1px solid #e67e22;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+.button-1:hover {
+  background-color: #FF983C;
+  /* box-shadow: 3px 6px 7px 0px #CD6509; */
+}

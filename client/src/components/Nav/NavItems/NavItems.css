@@ -1,0 +1,17 @@
+.navitems-ul-container {
+  display: flex;
+  flex-flow: row-reverse;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+@media screen and (max-width: 900px) {
+  .navitems-ul-container {
+    display: block;
+  }
+}
+
+.navitems-logo {
+  position: absolute;
+}
+

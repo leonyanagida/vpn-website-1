@@ -1,0 +1,17 @@
+.navitem {
+  padding: 10px 15px 10px 15px;
+}
+.navitem > a {
+  color: #1c2139;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navitem-logo {
+  padding: 0;
+}
+.navitem-logo > a {
+  color: #1c2139;
+  font-weight: bold;
+  text-decoration: none;
+}

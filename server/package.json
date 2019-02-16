@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start:prod": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cryptr": "^4.0.2",
+    "express": "^4.16.4",
+    "express-rate-limit": "^3.3.2",
+    "nodemon": "^1.18.9",
+    "unirest": "^0.5.1"
+  }
+}

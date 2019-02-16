@@ -1,0 +1,108 @@
+.userip-container {
+  text-align: center;
+}
+.userip-inner-container {
+  margin: auto;
+  width: 80%;
+  position: relative;
+}
+
+.userip-headline {
+  font-size: 3.1em;
+  text-align: center;
+}
+
+.userip-text-headline {
+  margin-top: -1em;
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  .userip-text-headline {
+    display: none;
+  }
+}
+
+/* The Box Containing User IP Data */
+.userip-box-container {
+  position: relative;
+}
+.userip-box-inner-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.userip-box-ul {
+  list-style-type: none;
+  margin-right: 16px;
+  padding-inline-start: 0 !important;
+}
+.userip-box-ul-li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* Transforms puts the li items in the center of the left box */
+  transform: perspective(1px) translateX(30%);
+}
+.userip-box-left {
+  max-width: 17em;
+  padding-right: 5em;
+  text-align: left;
+}
+@media screen and (max-width: 1190px) {
+  .userip-box-left {
+    padding-right: 7em;
+  }
+}
+
+.userip-box-item-dummy-header {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.userip-navlink-btn {
+  color: white;
+  text-decoration: none;
+}
+
+.userip-box-right {
+  width: 54%;
+  height: 100%;
+  margin-left: 3em;
+}
+
+.userip-box-item-ip {
+  /* This class is specifically for the IP Address Box */
+  font-size: 1.9em;
+  font-weight: 700;
+}
+.userip-box-item-ip > p{
+  /* This class is specifically for the IP Address Box */
+  margin: 0;
+}
+
+.userip-box-detail {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.userip-box-detail > p{
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .userip-box-left {
+    max-width: 17em;
+    padding-right: 0;
+    margin-right: 6em;
+  }
+  .userip-box-right {
+    width: 90%;
+    height: 100%;
+    margin-left: 0;
+  }
+}

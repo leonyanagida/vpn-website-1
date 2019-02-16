@@ -1,0 +1,209 @@
+.pricingpage-container {
+
+}
+
+.pricingpage-inner-container {
+  background-color: #ececec;
+  margin: auto;
+}
+
+.pricingpage-title {
+  color: #1c2139;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.pricingpage-title-text {
+  color: #1c2139;
+  font-weight: 600;
+  margin-top: -12px;
+  text-align: center;
+}
+
+.pricingpage-col-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.pricingpage-col-1 {
+  background: #1b1b1b;
+  box-shadow: 0px 10px 25px -5px #151414;
+  color: white;
+  width: 16em;
+  height: 20em;
+  margin: 2.1em 1em 1em 1em;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+
+.pricingpage-col-2 {
+  background: #1b1b1b;
+  box-shadow: 0px 8px 29px 1px #1f1f1f;
+  color: white;
+  width: 17em;
+  height: 23em;
+  margin: 1em;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+
+.pricingpage-col-3 {
+  background: #1b1b1b;
+  box-shadow: 0px 10px 25px -5px #151414;
+  color: white;
+  width: 16em;
+  height: 20em;
+  margin: 2.1em 1em 1em 1em;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+  .pricingpage-col-1 {
+    width: 60%;
+  }
+  
+  .pricingpage-col-2 {
+    width: 70%;
+  }
+  
+  .pricingpage-col-3 {
+    width: 60%;
+  }
+  
+}
+
+.pricingpage-header-container {
+  margin-top: 1.7em;
+}
+
+.pricingpage-header {
+  margin: 5px;
+}
+
+.pricingpage-header-text {
+  color: #c7c7c7;
+  font-variant: all-small-caps;
+  margin-top: -9px;
+}
+
+.pricingpage-header-sale {
+  color: gray;
+  font-weight: 200;
+  margin: 5px;
+  padding-left: 10px;
+}
+
+.pricingpage-header-sale-12 {
+  color: gray;
+  font-weight: 200;
+  margin: 5px;
+  padding-left: 10px;
+}
+
+.pricingpage-header-sale-24 {
+  color: orange;
+  font-weight: 600;
+  margin: 5px;
+  padding-left: 10px;
+}
+
+.pricingpage-btn-container-center {
+  bottom: 4em;
+  position: absolute;
+  width: 100%;
+}
+
+.pricingpage-btn-container {
+  bottom: 2em;
+  position: absolute;
+  width: 100%;
+}
+
+.pricingpage-price {
+  margin: 0.8em 1px 1px 1px;
+}
+
+.pricingpage-price-original {
+  color: #f6606c;
+  margin: 1px;
+  text-decoration: line-through;
+}
+
+.pricingpage-price-sale {
+  color: #c7c7c7;
+  margin: 1px;
+}
+
+.pricingpage-payment-date {
+  color: #c7c7c7;
+  margin: 1px;
+}
+
+
+.pricingpage-benefits-container {
+  background-color: #f8f8f8;
+}
+
+.pricingpage-benefits-inner-container {
+  margin: auto;
+  max-width: 60%;
+  text-align: center;
+}
+
+.pricingpage-benefits-ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.pricingpage-benefits-li {
+  box-shadow: 0px 4px 27px -8px #959595;
+  height: 14em;
+  width: 200px;
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .pricingpage-benefits-li {
+    box-shadow: 0px 4px 27px -8px #959595;
+    height: 14em;
+    width: 170px;
+    margin-top: 20px;
+    margin-right: 19px;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .pricingpage-benefits-ul {
+    justify-content: center;
+  }
+}
+
+.pricingpage-benefits {
+  margin-top: 1.2em;
+  padding: 0 12px 0 12px;
+}
+
+.pricingpage-benefits-text {
+  margin-top: -12px;
+}

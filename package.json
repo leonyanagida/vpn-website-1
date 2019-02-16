@@ -1,0 +1,25 @@
+{
+  "name": "vpn-website-1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "concurrently \"cd client && yarn build\"",
+    "heroku-postbuild": "yarn build",
+    "install": "(cd client && yarn) && (cd server && yarn)",
+    "start:prod": "cd server && yarn start:prod"
+  },
+  "engines": {
+    "node": "11.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "^1.4.4",
+    "cryptr": "^4.0.2",
+    "express": "^4.16.4",
+    "express-rate-limit": "^3.3.2",
+    "unirest": "^0.5.1"
+  }
+}

@@ -1,0 +1,50 @@
+.accountpage-container {
+  background-color: #f8f8f8;
+}
+
+.accountpage-inner-container {
+  margin: auto;
+}
+
+.accountpage-register {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.accountpage-form-container {
+    display: block;
+    text-align: center;
+}
+
+.accountpage-form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.accountpage-form > input {
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 25em;
+}
+.accountpage-switch-container {
+  display: block;
+  text-align: center;
+}
+
+.accountpage-switch {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22em;
+  text-align: left;
+}
+
+.accountpage-switch-text {
+  margin: 0;
+}
+
+.accountpage-switcher {
+  cursor: pointer;
+}

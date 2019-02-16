@@ -1,0 +1,30 @@
+.nav-container {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e2;
+  height: 3.8em;
+
+}
+
+.nav-inner-container {
+  margin: auto;
+  max-width: 80%;
+}
+
+.nav-brand {
+  position: absolute;
+}
+.nav-brand > a{
+  color: #1c2139;
+  font-weight: bold;
+  position: absolute;
+  text-decoration: none;
+}
+
+.nav-desktop {
+  display: block;
+}
+@media screen and (max-width: 900px) {
+  .nav-desktop {
+    display: none;
+  }
+}
