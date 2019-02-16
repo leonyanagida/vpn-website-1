@@ -6,6 +6,8 @@ A mostly front-end sample website created using React. Currently, there is no ch
 
 Download or clone the project to get started. No configuration is needed for the project to work, as dummy data will be inserted if the client is unable to connect to the server.
 
+Visit a live version of the site here: [VPN Site](https://vpn-website-1.herokuapp.com/)
+
 ### Install
 
 To run on your local machine, install the dependencies and then we will run two scripts.
