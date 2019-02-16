@@ -44,13 +44,22 @@ Step 2: In the dev.js file paste the following:
 
 ```
 module.exports = {
-  apiGoogleMaps: "YOUR_API_KEY_HERE"
+  apiURL: "https://community-neutrino-ip-info.p.rapidapi.com/ip-info",
+  apiHeader: "X-RapidAPI-Key",
+  apiKey: "YOUR_API_KEY_HERE",
+  cryptrKey: "INSERT_RANDOM_LETTERS_HERE",
+  apiGoogleMaps: "YOUR_GOOGLE_MAPS_API_KEY_HERE"
 };
 ```
 
-Note: Replace the YOUR_API_KEY_HERE with your own personal Google Maps API key. Make sure the API key is a string (Place the API key in between quotes).
+### dev.js file notes: 
 
-Step 3: Navigate to the UserGoogleMaps.js file and replace the Google Maps API key.
+* Never deply the dev.js file to github
+* For apiKey, head over to [rapidapi](https://rapidapi.com/coderholic/api/ipinfo-io) and create an account. Use the API key that is provided to your account
+* Replace the YOUR_API_KEY_HERE with your own personal Google Maps API key. Make sure the API key is a string (Place the API key in between quotes)
+* For cryptrKey, put any set of random letters
+
+Step 3: Navigate to the UserGoogleMaps.js file and replace the Google Maps API key with your own.
 
 ```
 client ---
