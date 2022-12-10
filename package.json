@@ -18,7 +18,7 @@
     "concurrently": "^4.1.0",
     "cookie-parser": "^1.4.4",
     "cryptr": "^4.0.2",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-rate-limit": "^3.3.2",
     "unirest": "^0.5.1"
   }
