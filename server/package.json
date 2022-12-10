@@ -11,7 +11,7 @@
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "cryptr": "^4.0.2",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-rate-limit": "^3.3.2",
     "nodemon": "^1.18.9",
     "unirest": "^0.5.1"
